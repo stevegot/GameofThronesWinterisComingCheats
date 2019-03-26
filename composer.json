@@ -1,0 +1,24 @@
+{
+    "name": "gameofthroneswinteriscoming/new",
+    "description": "Game of Thrones Winter is Coming cheat engine ",
+    "homepage": "https://non-cgplus.com/game-of-thrones-winter-is-coming-cheats/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CLICK to use Game of Thrones Winter is Coming cheat",
+            "homepage": "https://non-cgplus.com/game-of-thrones-winter-is-coming-cheats/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "agee\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
